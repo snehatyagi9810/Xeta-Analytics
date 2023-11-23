@@ -9,4 +9,10 @@ import UIKit
 
 class CollectionReusableView: UICollectionReusableView {
         
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var mainButton: UIButton!
+    
+    @IBAction func mainButtonPressed(){
+        
+    }
 }
